@@ -1,0 +1,22 @@
+{
+  "name": "lab07",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start1": "nodemon --exec babel-node src/index.js",
+    "start2": "nodemon --exec babel-node src/zad_02.js",
+    "babel": "babel src -d es5out"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^8.14.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

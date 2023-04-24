@@ -1,0 +1,20 @@
+{
+  "name": "lab13_kolokwium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "1": "nodemon src/zad1.js",
+    "2": "nodemon src/zad2.js",
+    "3": "nodemon src/zad3.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "type": "module"
+}
+

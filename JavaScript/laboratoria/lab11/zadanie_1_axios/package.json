@@ -1,0 +1,19 @@
+{
+  "name": "lab11",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitlab.com/jezyki-programowania-2/21-22/grupa-4/wozniak-jakub.git",
+  "author": "Jakub Woźniak <jakubwozniak0611@gmail.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "index": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

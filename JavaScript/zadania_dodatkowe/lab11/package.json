@@ -1,0 +1,14 @@
+{
+  "name": "lab11_kolokwium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "1": "nodemon src/eventloop.js"
+}
+}
+
